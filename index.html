@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Love</title>
+</head>
+
+<body>
+    <div id="test">
+        <h1>SAO BẢO YÊU NHAU LẮM CƠ MÀ =))</h1>
+        <h1>Vừa lòng tao lắm =))</h1>
+    </div>
+    <div id="container">
+        <h1>Been Love Memory</h1>
+        <div class="count" onclick="showDialog()">
+            <p>Đang yêu</p>
+            <p id="loveDay">0</p>
+            <p>Ngày</p>
+            <dialog id="myDialog">
+                <form class="form">
+                    <div class="getDay">
+                        <div id="textfiel">
+                            <label>Nhập ngày</label>
+                            <input id="day" placeholder="nhập ngày">
+                        </div>
+                        <div id="textfiel">
+                            <label>Nhập tháng</label>
+                            <input id="month" placeholder="nhập tháng">
+                        </div>
+                        <div id="textfiel">
+                            <label>Nhập năm</label>
+                            <input id="year" placeholder="nhập năm">
+                        </div>
+                    </div>
+                    <div class="getName">
+                        <div id="textfiel">
+                            <label>Nhập tên của bạn</label>
+                            <input id="name1" placeholder="nhập ngày">
+                        </div>
+                        <div id="textfiel">
+                            <label>Nhập tên của người ấy</label>
+                            <input id="name2" placeholder="nhập ngày">
+                        </div>
+                        <button onclick="closeDialog()">
+                                Summit
+                            </button>
+                    </div>
+                </form>
+            </dialog>
+        </div>
+        <!-- <button onclick="closeDialog()">
+            OK
+        </button> -->
+        <div class="avatar">
+            <div id=profile>
+                <img src="1.png" class="profile-pic" />
+                <p id="yourname">Tên bạn</p>
+
+            </div>
+            <div id="profile">
+                <img src="ban_tim.jpeg" class="profile-pic" />
+            </div>
+            <div id="profile">
+                <img src="2.png" class="profile-pic" />
+                <p id="namefriend">Tên người ấy</p>
+            </div>
+        </div>
+        <div id="footer">
+            <p>
+                Nếu chúng mày chia rồi thì click vào đây =))
+            </p>
+            <button onclick="clearData()">Xóa hết kỷ niệm</button>
+        </div>
+    </div>
+    <script src="my.js"></script>
+</body>
+
+</html>

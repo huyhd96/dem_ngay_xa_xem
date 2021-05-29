@@ -1,0 +1,113 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/GUmdD9q.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+
+#footer {
+    display: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#test {
+    display: none;
+    text-align: center;
+    color: #fff;
+}
+
+input {
+    padding: 12px;
+    margin-left: 12px;
+}
+
+label {
+    padding: 12px;
+}
+
+button {
+    margin: 12px;
+    padding: 12px;
+    background-color: chartreuse;
+    color: #fff;
+    width: 50%
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'BaseFiolexGirl';
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: pink solid 3px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    font-size: 1.5em;
+}
+
+.avatar {
+    margin: 12px 0;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 2em;
+    text-align: center;
+}
+
+.profile-pic {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#profile {
+    padding: 12px;
+    display: grid;
+    text-align: center;
+}
+
+.getDay {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 12px;
+    padding: 12px;
+}
+
+.getName {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 12px;
+    padding: 12px;
+}
+
+#textfiel {
+    display: grid;
+}
+
+form {
+    display: grid;
+    text-align: left;
+}
